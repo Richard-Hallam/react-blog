@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar renders correctly 1`] = `
+<DocumentFragment>
+  <div>
+    <h2
+      class="nav-header"
+    >
+      Richard Hallam
+    </h2>
+    <ul
+      class="link-bar"
+    >
+      <li>
+        Projects
+      </li>
+      <li>
+        Github
+      </li>
+      <li>
+        Linkedin
+      </li>
+      <li>
+        Archive
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;

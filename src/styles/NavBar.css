@@ -1,0 +1,8 @@
+.nav-header{
+    color:black,
+}
+
+.link-bar{
+    display: flex;
+    flex-direction: row;
+}
