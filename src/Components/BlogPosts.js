@@ -5,7 +5,12 @@ class BlogPosts extends React.Component{
     render() {
         return <div>
             <ul className="post-list">
-              <li className="post">test</li>
+              <li className="post">
+                <div>
+                    <h3>Hydroponics control system build 1</h3>
+                    <p>THis is just some sample text that is not important right now Hopefully I come up with a better way to do this later on</p>
+                </div>
+              </li>
             </ul>
         </div>
     }
