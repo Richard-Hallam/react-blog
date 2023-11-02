@@ -1,14 +1,15 @@
 import React from "react";
+import '../styles/NavBar.css'
 
 class Navbar extends React.Component{
     render() {
-        return <div>
+        return <div className="navbar">
             <h2 className="nav-header">Richard Hallam</h2>
             <ul className="link-bar">
-                <li>Projects</li>
-                <li>Github</li>
-                <li>Linkedin</li>
-                <li>Archive</li>
+                <li className="link-bar-link">Projects</li>
+                <li className="link-bar-link">Github</li>
+                <li className="link-bar-link">Linkedin</li>
+                <li className="link-bar-link">Archive</li>
             </ul>
         </div>
         

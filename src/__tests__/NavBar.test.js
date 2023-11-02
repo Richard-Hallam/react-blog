@@ -1,5 +1,5 @@
 import React from "react";
-import { render, screen } from '@testing-library/react';
+import { getByText, render, screen } from '@testing-library/react';
 import Navbar from "../Components/NavBar";
 
 
@@ -9,4 +9,6 @@ describe("Navbar", () => {
     it("renders correctly", ()=>{
         expect(asFragment()).toMatchSnapshot();
     });
+
+
 });

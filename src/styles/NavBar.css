@@ -1,8 +1,15 @@
 .nav-header{
-    color:black,
+    color:black;
 }
 
 .link-bar{
     display: flex;
-    flex-direction: row;
+    width: 60%;
+    align-items: left;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.navbar{
+    background-color: rgb(165, 209, 165);
 }

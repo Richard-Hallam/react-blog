@@ -11,16 +11,24 @@ exports[`Navbar renders correctly 1`] = `
     <ul
       class="link-bar"
     >
-      <li>
+      <li
+        class="link-bar-link"
+      >
         Projects
       </li>
-      <li>
+      <li
+        class="link-bar-link"
+      >
         Github
       </li>
-      <li>
+      <li
+        class="link-bar-link"
+      >
         Linkedin
       </li>
-      <li>
+      <li
+        class="link-bar-link"
+      >
         Archive
       </li>
     </ul>
