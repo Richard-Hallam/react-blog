@@ -1,11 +1,12 @@
 .nav-header{
     color:black;
+    text-align: center;
 }
 
 .link-bar{
     display: flex;
-    width: 60%;
-    align-items: left;
+    width: 90%;
+    align-items: center;
     list-style-type: none;
     justify-content: space-between;
 }

@@ -1,6 +1,6 @@
 import './styles/App.css';
-import Navbar from './Components/NavBar';
-import BlogPosts from './Components/BlogPosts';
+import Navbar from './Components/mainPage/NavBar';
+import BlogPosts from './Components/blogPosts/BlogPosts';
 
 function App() {
   return (

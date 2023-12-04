@@ -1,8 +1,8 @@
 import React from "react";
-import '../styles/BlogPosts.css';
+import '../../styles/blogPosts.css';
 
-class BlogPosts extends React.Component{
-    render() {
+function BlogPosts(){
+
         return <div>
             <ul className="post-list">
               <li className="post">
@@ -14,6 +14,6 @@ class BlogPosts extends React.Component{
             </ul>
         </div>
     }
-}
+
 
 export default BlogPosts;
