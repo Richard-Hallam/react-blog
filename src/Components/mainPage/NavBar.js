@@ -7,10 +7,14 @@ const Navbar = () => {
     const handleClick = (button) => {
         switch(button){
             case 'about':
-
-                pageSelectorSetter('About');
+                pageSelectorSetter('about')
                 break;
-
+            case 'projects':
+                pageSelectorSetter('projects')
+                break;
+            case 'archive':
+                pageSelectorSetter('archive')
+                break;
             default:
                 break;
         }
@@ -22,9 +26,9 @@ const Navbar = () => {
             <ul className="link-bar">
                 <button onClick={() => handleClick('about')} className="link-bar-link">About</button>
                 <button onClick={() => handleClick('projects')} className="link-bar-link">Projects</button>
-                <button className="link-bar-link">Github</button>
-                <button className="link-bar-link">Linkedin</button>
-                <button className="link-bar-link">Archive</button>
+                <a href="https://github.com/Richard-Hallam"><button className="link-bar-link">Github</button></a>
+                <a href="https://www.linkedin.com/in/richard-hallam-78391726b/"><button className="link-bar-link">Linkedin</button></a>
+                <button onClick={() => handleClick('archive')}className="link-bar-link">Archive</button>
             </ul>
         </div>
     );
