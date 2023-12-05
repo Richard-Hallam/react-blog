@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import App from "../../App";
 import '../../styles/NavBar.css';
 
 const Navbar = () => {
@@ -31,7 +30,6 @@ const Navbar = () => {
                 <a href="https://www.linkedin.com/in/richard-hallam-78391726b/"><button className="link-bar-link">Linkedin</button></a>
                 <button onClick={() => handleClick('archive')}className="link-bar-link">Archive</button>
             </ul>
-            <App pageSelect={pageSelector}/>
         </div>
     );
  }
