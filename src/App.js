@@ -5,7 +5,7 @@ import About from './Components/About';
 import React, { useState } from 'react';
 
 function App() {
-  const [pageSelector] = useState('home')
+  const [pageSelector] = useState('testing')
 
   switch(pageSelector){
     case 'home':
@@ -19,6 +19,14 @@ function App() {
         <div className="App">
           <Navbar />
           <About />
+        </div>
+      );
+      case 'testing':
+      return(
+        <div className="App">
+          <Navbar />
+          <About />
+          <BlogPosts />
         </div>
       );
     default:
