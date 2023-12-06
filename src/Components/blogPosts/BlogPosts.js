@@ -26,7 +26,7 @@ function BlogPosts(){
                       blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ss
                       \nblah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
                       /nblah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah </p>
-                    <img src='../../../public/cameraPicture.jpg' alt='me with a camera'></img>
+                    <img src={require('../../Images/cameraPicture.jpg')} alt='me with a camera'></img>
                 </div>
               </li>
             </ul>

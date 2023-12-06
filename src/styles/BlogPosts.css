@@ -1,6 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 .post{
     display: flex;
     list-style-type: none;
     background-color: aqua;
-    
+
 }
