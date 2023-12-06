@@ -9,8 +9,24 @@ function BlogPosts(){
               <li className="post">
                 <div>
                     <h3>Hydroponics control system build 1</h3>
-                    <p>THis is just some sample text that is not important right now Hopefully I come up with a better way to do this later on</p>
-                    <h1>bleh</h1>
+                    <p className="blog-paragraph">THis is just some sample text that is not important right now Hopefully I come up with a better way to do this later on</p>
+                    <h3 className="subheading">bleh</h3>
+                    <p className="blog-paragraph">blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+                      \nblah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+                      /nblah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                       blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+                      \nblah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+                      /nblah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+                      blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+                      \nblah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+                      /nblah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+                      blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+                      \nblah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+                      /nblah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+                      blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ss
+                      \nblah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+                      /nblah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah </p>
+                    <img src='../../../public/cameraPicture.jpg' alt='me with a camera'></img>
                 </div>
               </li>
             </ul>
