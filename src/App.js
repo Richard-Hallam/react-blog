@@ -6,7 +6,7 @@ import Home from './Components/Home';
 import React, { useState } from 'react';
 
 function App() {
-  const [pageSelector, setPageSelector] = useState('home')
+  const [pageSelector, setPageSelector] = useState('projects')
 
   function updatePageSetter(page) {
     setPageSelector(page)
