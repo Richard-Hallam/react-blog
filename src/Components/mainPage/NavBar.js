@@ -6,11 +6,11 @@ function Navbar(props) {
         <div className="navbar">
             <h2 className="nav-header">Richard Hallam</h2>
             <ul className="link-bar">
-                <button onClick={() => props.updatePageSetter('about')} className="link-bar-link">About</button>
-                <button onClick={() => props.updatePageSetter('projects')} className="link-bar-link">Projects</button>
-                <button onClick={() => props.updatePageSetter('posts')} className="link-bar-link">posts</button>
-                <a href="https://github.com/Richard-Hallam"><button className="link-bar-link">Github</button></a>
-                <a href="https://www.linkedin.com/in/richard-hallam-78391726b/"><button className="link-bar-link">Linkedin</button></a>
+                <button onClick={() => props.updatePageSetter('about')} class="bg-green-700 py-2 px-4 rounded-2xl">About</button>
+                <button onClick={() => props.updatePageSetter('projects')} class="bg-green-700 py-2 px-4 rounded-2xl">Projects</button>
+                <button onClick={() => props.updatePageSetter('posts')} class="bg-green-700 py-2 px-4 rounded-2xl">posts</button>
+                <a href="https://github.com/Richard-Hallam"><button class="bg-green-700 py-2 px-4 rounded-2xl">Github</button></a>
+                <a href="https://www.linkedin.com/in/richard-hallam-78391726b/"><button class="bg-green-700 py-2 px-4 rounded-2xl">Linkedin</button></a>
             </ul>
         </div>
     );
