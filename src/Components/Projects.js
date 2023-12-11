@@ -18,7 +18,7 @@ function Projects(){
                     <li>improved viewing on mobile devices</li>
                     <li>interactive projects</li>
                 </ol>
-                <a href="https://github.com/Richard-Hallam"><button class="bg-green-700 py-2 px-4 rounded-2xl">The blog on Github</button></a>
+                <a href="https://github.com/Richard-Hallam/react-blog"><button class="bg-green-700 py-2 px-4 rounded-2xl">The blog on Github</button></a>
             <h4>Discord Bot Fitness Contests:</h4>
               <p>
                 In colaboration with a friend who had previously written a bot for discord I wrote some code that requested workout
