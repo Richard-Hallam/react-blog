@@ -5,7 +5,15 @@ function About(){
     return(
         <div class="place-self-center">
           <div>
-            <p class= "text-base text-center">I am a junior developer specialising in javascript, SQL, react, python and more. </p>
+            <p class= "text-base text-center">I'm Richard Hallam</p> 
+            <p>I am a programmer on a continuous journey of learning and creating. During 2023
+              I successfully completed a 28 week bootcamp where I honed my skills in cutting-edge technologies, including React,
+              Node.js, MySQL, JavaScript, and Test-Driven Development. This experience has greatly improved my web development and
+              programming
+              skills.
+            </p>
+              <p>Richard Hallam</p>
+              <p>Software Developer | Tech Enthusiast | Constant Learner</p>
             <p class=" text-base text-center">Here are my github contributions</p>
             <p class="flex justify-center">
                 <img class="items-center" src="http://ghchart.rshah.org/Richard-Hallam" alt="Richard-Hallam's Github chart" />
