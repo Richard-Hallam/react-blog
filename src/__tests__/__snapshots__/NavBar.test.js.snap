@@ -2,7 +2,9 @@
 
 exports[`Navbar renders correctly 1`] = `
 <DocumentFragment>
-  <div>
+  <div
+    class="navbar"
+  >
     <h2
       class="nav-header"
     >
@@ -11,26 +13,39 @@ exports[`Navbar renders correctly 1`] = `
     <ul
       class="link-bar"
     >
-      <li
-        class="link-bar-link"
+      <button
+        class="bg-green-700 py-2 px-4 rounded-2xl"
+      >
+        About
+      </button>
+      <button
+        class="bg-green-700 py-2 px-4 rounded-2xl"
       >
         Projects
-      </li>
-      <li
-        class="link-bar-link"
+      </button>
+      <button
+        class="bg-green-700 py-2 px-4 rounded-2xl"
       >
-        Github
-      </li>
-      <li
-        class="link-bar-link"
+        posts
+      </button>
+      <a
+        href="https://github.com/Richard-Hallam"
       >
-        Linkedin
-      </li>
-      <li
-        class="link-bar-link"
+        <button
+          class="bg-green-700 py-2 px-4 rounded-2xl"
+        >
+          Github
+        </button>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/richard-hallam-78391726b/"
       >
-        Archive
-      </li>
+        <button
+          class="bg-green-700 py-2 px-4 rounded-2xl"
+        >
+          Linkedin
+        </button>
+      </a>
     </ul>
   </div>
 </DocumentFragment>
