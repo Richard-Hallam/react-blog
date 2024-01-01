@@ -4,7 +4,7 @@
 
 .App{
     background-color: rgb(179, 228, 183);
-    background-size: 100%;
+    background-size: cover;
     height: 100%;
     width: 100%;
 }
